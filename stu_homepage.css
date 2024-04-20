@@ -1,0 +1,200 @@
+/* Your existing styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  margin: auto;
+}
+
+header {
+  background-color: #7543c7;
+  color: #fff;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+}
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-list {
+  list-style-type: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.aicte {
+  height: 52px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 {
+  font-size: 20px;
+  flex: 1;
+}
+
+.logo img {
+  height: 70px;
+  width: 150px;
+  padding-right: 30px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.links {
+  width: 350px;
+  padding: 50px 15px;
+  background-color: #e9a531da;
+  height: 90vh;
+  /* margin: 5px 5px; */
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.links h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: navy;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  /* font-weight: bold; */
+}
+
+.links a {
+  color: navy;
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+}
+
+.links #logout {
+  color: red;
+}
+
+.links a:hover {
+  color: #02296d;
+}
+.wrapper {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.wrapper .top {
+  width: 100%;
+  background: linear-gradient(to right, #0145ac, #df01d4);
+  padding: 15px 10px;
+  /* border-top-left-radius: 5px; */
+  /* border-bottom-left-radius: 5px; */
+  text-align: center;
+  color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.wrapper .bottom {
+  width: 100%;
+  background: #f3f3f3;
+  padding: 30px 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.wrapper .bottom .info {
+  margin-bottom: 25px;
+}
+
+.wrapper .bottom .info h3 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wrapper .bottom .info_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .bottom .info_data .data {
+  width: 45%;
+}
+
+.wrapper .bottom .info_data .data h4,
+.wrapper .bottom .projects_data .data h4 {
+  font-size: 16px;
+  font-style: bold;
+  color: #353c4e;
+  margin-bottom: 5px;
+}
+
+.wrapper .bottom .info_data .data p,
+.wrapper .bottom .projects_data .data p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+.wrapper .social_media ul {
+  display: flex;
+}
+
+.wrapper .social_media ul li {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(to right, #01a9ac, #01dbdf);
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 45px;
+}
+
+.wrapper .social_media ul li a {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+}

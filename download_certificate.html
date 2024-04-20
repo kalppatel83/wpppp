@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificate Download</title>
+    <link rel="stylesheet" href="stu_homepage.css" />
+    <link rel="stylesheet" href="download_certificate.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="College Logo" />
+        <h1>GEC - Gandhinagar</h1>
+      </div>
+      <div>
+        <ul class="nav-ul">
+          <li class="nav-list">Home</li>
+          <li class="nav-list">About</li>
+          <li class="nav-list">Contact</li>
+        </ul>
+      </div>
+      <div>
+        <img src="./aicte.png" class="aicte" alt="" />
+      </div>
+    </header>
+    <div class="container">
+      <section class="links">
+        <h2>Dashboard</h2>
+        <ul>
+          <li><a href="#">Profile</a></li>
+          <li>
+            <a id="transfer" href="character_certificate.html"
+              >Certificate Request</a
+            >
+          </li>
+          <li>
+            <a id="transfer" href="download_certificate.html"
+              >Download Certificate</a
+            >
+          </li>
+          <li><a id="logout" href="login.html">Logout</a></li>
+        </ul>
+      </section>
+      <div class="download_details">
+        <h2>Certificate Download</h2>
+
+        <table>
+          <tr>
+            <th>Number</th>
+            <th>Certificate Name</th>
+            <th>Status</th>
+            <th>Comment</th>
+            <th>Name</th>
+            <th>Download</th>
+          </tr>
+          <tr>
+            <td class="number-column">1</td>
+            <td>Sample Certificate 1</td>
+            <td>Approved</td>
+            <td>Great work!</td>
+            <td>John Doe</td>
+            <td>
+              <a href="path_to_certificate_1.pdf" class="download-btn" download
+                >Download Certificate</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td class="number-column">2</td>
+            <td>Sample Certificate 2</td>
+            <td>Pending</td>
+            <td>Needs revision</td>
+            <td>Jane Smith</td>
+            <td>
+              <a href="path_to_certificate_2.pdf" class="download-btn" download
+                >Download Certificate</a
+              >
+            </td>
+          </tr>
+          <!-- Add more rows for additional certificates -->
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

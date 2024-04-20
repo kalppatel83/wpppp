@@ -1,0 +1,72 @@
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: hsla(213, 77%, 14%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(213, 77%, 14%, 1) 0%,
+    hsla(202, 27%, 45%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#08203E", endColorstr="#557C93", GradientType=1 );
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 20px;
+  width: calc(50% - 10px);
+}
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.form-group select {
+  height: 40px;
+}
+.form-group input[type="submit"] {
+  background-color: #2ecc71;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.form-group input[type="submit"]:hover {
+  background-color: #27ae60;
+}
